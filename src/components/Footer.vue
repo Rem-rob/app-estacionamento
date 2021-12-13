@@ -1,6 +1,10 @@
 <template>
+
+<footer id="footer">
     
 <p> Sistema de Estacionamento 2021 </p>
+
+</footer>
 
 </template>
 
@@ -13,5 +17,16 @@ export default {
 </script>
 
 <style scoped>
+
+#footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
 
 </style>

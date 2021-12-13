@@ -1,5 +1,5 @@
 <template>
-  <div class="Cadastro">
-    <h1>Cadastro de veículos</h1>
+  <div class="main-container">
+    <h1>Exibir veículos cadastrados</h1>
   </div>
 </template>
