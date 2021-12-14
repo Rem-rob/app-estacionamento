@@ -1,14 +1,46 @@
 {
-    "status" : [
-        {
-            "id" : 1,
-            "tipo" : "Solicitado"
-        },
-        {
-            "id" : 2,
-            "tipo" : "Finalizado"
-        }
-    ],
-
-    "carros" : []
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Finalizado"
+    }
+  ],
+  "carros": [
+    {
+      "nome": "Robson Souza",
+      "nomeCarro": "Vectra",
+      "placaCarro": "hr-222",
+      "hora": "12:00",
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Julio",
+      "nomeCarro": "Fox",
+      "placaCarro": "HD-333",
+      "hora": "11:00",
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Roberto",
+      "nomeCarro": "Ford",
+      "placaCarro": "HG-6666",
+      "hora": "13:00",
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "João",
+      "nomeCarro": "Gol",
+      "placaCarro": "HG-5555",
+      "hora": "11:30",
+      "status": "Solicitado",
+      "id": 4
+    }
+  ]
 }
