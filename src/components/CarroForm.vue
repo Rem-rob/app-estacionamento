@@ -95,11 +95,11 @@ export default {
 
           console.log (res);
             // mensage de cadastro de carro
-          this.msg='Carro cadastrado com sucesso. Obrigado!';
+          this.msg=`Carro do ${res.nome} cadastrado com sucesso. Obrigado!`;
 
           // limpar de a mensagem após um tempo
 
-          setTimeout(()=> this.msg = "", 3000)
+          setTimeout(()=> this.msg = "", 10000)
 
           //limpar campos
 
